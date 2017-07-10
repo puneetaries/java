@@ -1,0 +1,273 @@
+LAL01551> s+
+
+LAL01551> hget EUtranCellFDD (administrativeState|cellBarred|operationalState|partOfSectorPower|primaryPlmnReserved)
+
+
+MO                          administrativeState cellBarred     operationalState primaryPlmnReserved
+=================================================================================================================
+EUtranCellFDD=LAL01551_2A_1 0 (LOCKED)          0 (BARRED)     0 (DISABLED)     true               
+EUtranCellFDD=LAL01551_2B_1 0 (LOCKED)          0 (BARRED)     0 (DISABLED)     true               
+EUtranCellFDD=LAL01551_2C_1 0 (LOCKED)          0 (BARRED)     0 (DISABLED)     true               
+EUtranCellFDD=LAL01551_7A_1 1 (UNLOCKED)        1 (NOT_BARRED) 1 (ENABLED)      false              
+EUtranCellFDD=LAL01551_7B_1 1 (UNLOCKED)        1 (NOT_BARRED) 1 (ENABLED)      false              
+EUtranCellFDD=LAL01551_7C_1 1 (UNLOCKED)        1 (NOT_BARRED) 1 (ENABLED)      false              
+=================================================================================================================
+Total: 6 
+
+LAL01551> alt
+
+Starting to retrieve active alarms
+Nr of active alarms are: 10
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo)
+====================================================================================================================
+2015-01-08 11:18:11 C ExternalAlarm                       AuxPlugInUnit=RRU-1,DeviceGroup=ru,AlarmPort=1 (RBS LTE RRU SQUID DC SPD)
+2015-01-08 11:19:42 m LinkFailure                         Subrack=1,Slot=1,PlugInUnit=1,RiPort=F (No signal detected, id 1, port 6, cascadeNo 0, ruPortNo 0)
+2015-01-08 11:19:42 m LinkFailure                         Subrack=1,Slot=1,PlugInUnit=1,RiPort=E (No signal detected, id 1, port 5, cascadeNo 0, ruPortNo 0)
+2015-01-08 11:19:42 m LinkFailure                         Subrack=1,Slot=1,PlugInUnit=1,RiPort=D (No signal detected, id 1, port 4, cascadeNo 0, ruPortNo 0)
+2015-01-08 11:30:31 M CurrentTooHigh                      AuxPlugInUnit=RRU-1,DeviceGroup=ru,RfPort=B (Power overload on ports A and B)
+2015-01-08 11:30:31 M CurrentTooHigh                      AuxPlugInUnit=RRU-1,DeviceGroup=ru,RfPort=A (Power overload on ports A and B)
+2015-01-08 11:30:38 M CurrentTooHigh                      AuxPlugInUnit=RRU-2,DeviceGroup=ru,RfPort=B (Power overload on ports A and B)
+2015-01-08 11:30:38 M CurrentTooHigh                      AuxPlugInUnit=RRU-2,DeviceGroup=ru,RfPort=A (Power overload on ports A and B)
+2015-01-08 11:30:45 M CurrentTooHigh                      AuxPlugInUnit=RRU-3,DeviceGroup=ru,RfPort=B (Power overload on ports A and B)
+2015-01-08 11:30:45 M CurrentTooHigh                      AuxPlugInUnit=RRU-3,DeviceGroup=ru,RfPort=A (Power overload on ports A and B)
+>>> Total: 10 Alarms (1 Critical, 6 
+
+LAL01551> pmr -r 4 | grep 'Int_RadioRecInterference'
+
+
+Report from 2015-01-09 19:15 UTC to 2015-01-09 20:14 UTC (4 ropfiles)
+Node SW: CXP102051/19_R35EH (L13B)
+
+Start Time: 2015-01-09 19:15:00 End Time: 2015-01-09 20:00:00
+ Counter                                                     LAL01551_2A_1 LAL01551_2B_1 LAL01551_2C_1 LAL01551_7A_1 LAL01551_7B_1 LAL01551_7C_1
+ Int_RadioRecInterferencePucchPwr                                        0             0             0        -117.0        -116.6        -119.2
+ Int_RadioRecInterferencePwr                                             0             0             0        -116.7        -115.2        -118.8
+
+
+[1;32mLAL01551[0m
+
+LAL01551> lh ru fui get vswr 1
+
+
+$ lhsh 000100/BXP_0_1 fui get vswr 1
+0001BXP_0_1: vswr:  22.9[dB]
+=============================================================================================
+$ lhsh 000100/BXP_1_1 fui get vswr 1
+0001BXP_1_1: vswr:  17.8[dB]
+=============================================================================================
+$ lhsh 000100/BXP_2_1 fui get vswr 1
+0001BXP_2_1: vswr:  21.4[dB]
+$ 
+
+[1;32mLAL01551[0m
+
+LAL01551> lh ru fui get vswr 2
+
+$ lhsh 000100/BXP_0_1 fui get vswr 2
+0001BXP_0_1: vswr:  25.5[dB]
+=============================================================================================
+$ lhsh 000100/BXP_1_1 fui get vswr 2
+0001BXP_1_1: vswr:  18.1[dB]
+=============================================================================================
+$ lhsh 000100/BXP_2_1 fui get vswr 2
+0001BXP_2_1: vswr:  21.4[dB]
+$ 
+
+[1;32mLAL01551[0m
+
+LAL01551> st ret
+
+
+Proxy  Adm State     Op. State     MO
+===================================================================================
+  355                0 (DISABLED)  Equipment=1,AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1
+  357                0 (DISABLED)  Equipment=1,AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1
+  376                0 (DISABLED)  Equipment=1,AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1
+  378                0 (DISABLED)  Equipment=1,AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1
+  397                0 (DISABLED)  Equipment=1,AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1
+  399                0 (DISABLED)  Equipment=1,AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1
+===================================================================================
+Total: 6 
+
+LAL01551> hget retsub userlabel|iuantBaseStationId
+
+
+MO                                                iuantBaseStationId userLabel
+=================================================================================================================
+AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1                             
+AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1                             
+AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1                             
+AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1                             
+AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1                             
+AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1                             
+=================================================================================================================
+Total: 6 
+
+LAL01551> get . electrical
+
+
+MO                                                      Attribute         Value
+=================================================================================================================
+AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 47
+AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 20
+AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 47
+AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 20
+AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 50
+AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 40
+=================================================================================================================
+Total: 6 
+
+LAL01551> st tma
+
+
+Proxy  Adm State     Op. State     MO
+===================================================================================
+===================================================================================
+Total: 0 
+
+LAL01551> hget sectorcar reserved
+
+
+MO              reservedBy                       
+=================================================================================================================
+SectorCarrier=1 [1] = EUtranCellFDD=LAL01551_7A_1
+SectorCarrier=2 [1] = EUtranCellFDD=LAL01551_7B_1
+SectorCarrier=3 [1] = EUtranCellFDD=LAL01551_7C_1
+SectorCarrier=4 [1] = EUtranCellFDD=LAL01551_2A_1
+SectorCarrier=5 [1] = EUtranCellFDD=LAL01551_2B_1
+SectorCarrier=6 [1] = EUtranCellFDD=LAL01551_2C_1
+=================================================================================================================
+Total: 6 
+
+LAL01551> cabx
+
+
+SMN APN  BOARD    FAULT  OPER   MAINT  STAT    PRODUCTNUMBER  REV    SERIAL     DATE     TEMP COREMGR
+====================================================================================================================
+  0   1  DUS4101  OFF    05HZ   OFF    OFF     KDU137624/1    R5A/A  D16B047566 20131114 42C  Active*
+--------------------------------------------------------------------------------------------------------------------
+
+================================================================
+SMN  ProductNr           Rev   Name        Date      SerialNr
+================================================================
+  0  ROJ999999           *     BACKPLANE             
+----------------------------------------------------------------
+
+==============================================================================================================================
+SMN APN PORT     BOARD            FAULT  OPER   MAINT  PRODUCT NR   REV    SERIAL       DATE     TEMP  AuxPIU  Cells
+==============================================================================================================================
+  0   1 BXP_0_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R2G/B  CB4H182203   20110331 17.9  RRU-1   LAL01551_7A_1
+  0   1 BXP_1_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R3B    CF81566486   20131114 12.9  RRU-2   LAL01551_7B_1
+  0   1 BXP_2_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R3B    CF81566443   20131114 11.1  RRU-3   LAL01551_7C_1
+------------------------------------------------------------------------------------------------------------------------------
+
+====================================================================================================================
+SMN APN PORT     BOARD      AuxPIU   TX1(W/dBm)  TX2(W/dBm)  VSWR1 (RL1) VSWR2 (RL2)  Cells (cellId,PCI)
+====================================================================================================================
+  0   1 BXP_0_1  RRUS11B12  RRU-1    7.1 (38.5) 10.5 (40.2)  1.16 (22.4) 1.11 (25.8)  LAL01551_7A_1 (15,414)
+  0   1 BXP_1_1  RRUS11B12  RRU-2   27.0 (44.3) 21.6 (43.3)  1.34 (16.8) 1.27 (18.6)  LAL01551_7B_1 (16,415)
+  0   1 BXP_2_1  RRUS11B12  RRU-3    3.6 (35.5)  4.2 (36.2)  1.19 (21.3) 1.18 (21.6)  LAL01551_7C_1 (17,416)
+--------------------------------------------------------------------------------------------------------------------
+
+[1;32mLAL01551[0m
+
+LAL01551> hget sector tx|rx
+
+
+MO              noOfRxAntennas noOfTxAntennas noOfUsedRxAntennas noOfUsedTxAntennas
+=================================================================================================================
+SectorCarrier=1 2              2              2                  2                 
+SectorCarrier=2 2              2              2                  2                 
+SectorCarrier=3 2              2              2                  2                 
+SectorCarrier=4 4              2              -1                 -1                
+SectorCarrier=5 4              2              -1                 -1                
+SectorCarrier=6 4              2              -1                 -1                
+=================================================================================================================
+Total: 6 
+
+LAL01551> hget sector power
+
+
+MO              maximumTransmissionPower partOfSectorPower
+=================================================================================================================
+SectorCarrier=1 475                      100              
+SectorCarrier=2 475                      100              
+SectorCarrier=3 475                      100              
+SectorCarrier=4 -1                       100              
+SectorCarrier=5 -1                       100              
+SectorCarrier=6 -1                       100              
+=================================================================================================================
+Total: 6 
+
+MO                        availableSectorPower configuredOutputPower
+=================================================================================================================
+SectorEquipmentFunction=1 60000                60000                
+SectorEquipmentFunction=2 60000                60000                
+SectorEquipmentFunction=3 60000                60000                
+SectorEquipmentFunction=4 0                    60000                
+SectorEquipmentFunction=5 0                    60000                
+SectorEquipmentFunction=6 0                    60000                
+=================================================================================================================
+Total: 6 
+
+LAL01551> hget rfb aup|res
+
+
+MO                                  auPortRef                                                        reservedBy                     
+=================================================================================================================
+AntennaUnitGroup=1,RfBranch=1       [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=1
+AntennaUnitGroup=1,RfBranch=2       [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=1
+AntennaUnitGroup=1,RfBranch=3       [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=2,AuPort=1 [1] = SectorEquipmentFunction=4
+AntennaUnitGroup=1,RfBranch=4_NO_TX [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=2,AuPort=2 [1] = SectorEquipmentFunction=4
+AntennaUnitGroup=1,RfBranch=5       [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=3,AuPort=1 [1] = SectorEquipmentFunction=4
+AntennaUnitGroup=1,RfBranch=6_NO_TX [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=3,AuPort=2 [1] = SectorEquipmentFunction=4
+AntennaUnitGroup=2,RfBranch=1       [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=2
+AntennaUnitGroup=2,RfBranch=2       [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=2
+AntennaUnitGroup=2,RfBranch=3       [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=2,AuPort=1 [1] = SectorEquipmentFunction=5
+AntennaUnitGroup=2,RfBranch=4_NO_TX [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=2,AuPort=2 [1] = SectorEquipmentFunction=5
+AntennaUnitGroup=2,RfBranch=5       [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=3,AuPort=1 [1] = SectorEquipmentFunction=5
+AntennaUnitGroup=2,RfBranch=6_NO_TX [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=3,AuPort=2 [1] = SectorEquipmentFunction=5
+AntennaUnitGroup=3,RfBranch=1       [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=3
+AntennaUnitGroup=3,RfBranch=2       [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=3
+AntennaUnitGroup=3,RfBranch=3       [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=2,AuPort=1 [1] = SectorEquipmentFunction=6
+AntennaUnitGroup=3,RfBranch=4_NO_TX [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=2,AuPort=2 [1] = SectorEquipmentFunction=6
+AntennaUnitGroup=3,RfBranch=5       [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=3,AuPort=1 [1] = SectorEquipmentFunction=6
+AntennaUnitGroup=3,RfBranch=6_NO_TX [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=3,AuPort=2 [1] = SectorEquipmentFunction=6
+=================================================================================================================
+Total: 18 
+
+LAL01551> pst
+
+
+  PROXY  SCANNER-NAME                                                  STATE
+================================================================================
+     20  PREDEF.STATS                                                  ACTIVE
+     48  USERDEF.National_PM_Standard_eNodeB_L13B_GS_13.20.Profile=11.Continuous=Y.STATS  ACTIVE
+     49  PREDEF.10000.CELLTRACE                                        SUSPENDED
+     50  PREDEF.10001.CELLTRACE                                        ACTIVE
+     51  PREDEF.10002.CELLTRACE                                        SUSPENDED
+     52  PREDEF.10003.CELLTRACE                                        SUSPENDED
+     53  PREDEF.10004.CELLTRACE                                        SUSPENDED
+     54  PREDEF.10005.CELLTRACE                                        ACTIVE
+================================================================================
+>>> Total: 8 
+
+**************************************
+
+NODEB / ENODEB ID  :LAL01551
+TECHNOLOGY  :LTE
+RNC ID  :NA
+Date  :01092015_14_27
+NIC Integrator  :eivopez
+MARKET  :NA
+OSS  :NA
+NEW CARRIER  :NA
+UTRANCELL/EUTRANCELLS OF NEW CARRIER  :NA
+CallTest Result  :NA
+FE NAME  :NA
+FE PHONE No  :NA
+SOW  :NA
+WAS 911 DONE?:NA
+WAS NEA TESTING DONE?:NA
+PTN Number:NA

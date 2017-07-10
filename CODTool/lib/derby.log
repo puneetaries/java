@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Thu Feb 12 18:46:08 IST 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-014b-7dee-aa2f-000000c3aee8 
+on database directory C:\Users\epunsri\workspace\CODTool\CODDb with class loader sun.misc.Launcher$AppClassLoader@35ce36 
+Loaded from file:/C:/Users/epunsri/workspace/CODTool/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_38-b05
+user.dir=C:\Users\epunsri\workspace\CODTool\lib
+os.name=Windows 7
+os.arch=x86
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 13 11:17:50 IST 2015: Shutting down Derby engine
+----------------------------------------------------------------
+Fri Feb 13 11:17:50 IST 2015:
+Shutting down instance a816c00e-014b-7dee-aa2f-000000c3aee8 on database directory C:\Users\epunsri\workspace\CODTool\CODDb with class loader sun.misc.Launcher$AppClassLoader@35ce36 
+----------------------------------------------------------------

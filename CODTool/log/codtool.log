@@ -1,0 +1,8 @@
+2015-01-30 20:13:56 DEBUG CODDAO:577 - main(String[]) - start
+2015-01-30 20:13:56 DEBUG CODDAO:26 - getConnection(Connection) - start
+2015-01-30 20:13:57 DEBUG CODDAO:41 - getConnection(Connection) - end
+2015-01-30 20:13:57 DEBUG CODDAO:428 - getAllProcessedfilesNameY() - start
+2015-01-30 20:13:57 DEBUG CODDAO:26 - getConnection(Connection) - start
+2015-01-30 20:13:57 DEBUG CODDAO:41 - getConnection(Connection) - end
+2015-01-30 20:13:57 DEBUG CODDAO:469 - getAllProcessedfilesNameY() - end
+2015-01-30 20:13:57 DEBUG CODDAO:585 - main(String[]) - end

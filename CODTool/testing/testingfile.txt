@@ -1,0 +1,247 @@
+ILL00778> s+
+
+ILL00778> hget EUtranCellFDD (administrativeState|cellBarred|operationalState|partOfSectorPower|primaryPlmnReserved)
+
+
+MO                          administrativeState cellBarred operationalState primaryPlmnReserved
+=================================================================================================================
+EUtranCellFDD=ILL00778_7A_1 1 (UNLOCKED)        0 (BARRED) 1 (ENABLED)      true               
+EUtranCellFDD=ILL00778_7B_1 1 (UNLOCKED)        0 (BARRED) 1 (ENABLED)      true               
+EUtranCellFDD=ILL00778_7C_1 1 (UNLOCKED)        0 (BARRED) 1 (ENABLED)      true               
+=================================================================================================================
+Total: 3 
+
+ILL00778> alt
+
+Starting to retrieve active alarms
+Nr of active alarms are: 6
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo)
+====================================================================================================================
+2015-02-09 17:21:01 m NoContact                           AntennaUnitGroup=3,AntennaNearUnit=2 (Timeout: Failed to get anuConnectIndication)
+2015-02-09 17:21:01 m NoContact                           AntennaUnitGroup=3,AntennaNearUnit=1 (Timeout: Failed to get anuConnectIndication)
+2015-02-09 17:26:23 m NoContact                           AntennaUnitGroup=1,AntennaNearUnit=1 (Timeout: Failed to get anuConnectIndication)
+2015-02-09 17:26:23 m NoContact                           AntennaUnitGroup=1,AntennaNearUnit=2 (Timeout: Failed to get anuConnectIndication)
+2015-02-09 18:04:36 m NoContact                           AntennaUnitGroup=2,AntennaNearUnit=2 (Timeout: Failed to get anuConnectIndication)
+2015-02-09 18:04:36 m NoContact                           AntennaUnitGroup=2,AntennaNearUnit=1 (Timeout: Failed to get anuConnectIndication)
+>>> Total: 6 Alarms (0 Critical, 0 
+
+ILL00778> pmr -r 4 | grep 'Int_RadioRecInterference'
+
+
+Report from 2015-02-10 17:00 UTC to 2015-02-10 17:59 UTC (4 ropfiles)
+Node SW: CXP102051/21_R38ES (L14A)
+
+Start Time: 2015-02-10 17:00:00 End Time: 2015-02-10 17:45:00
+ Counter                                                     ILL00778_7A_1 ILL00778_7B_1 ILL00778_7C_1
+ Int_RadioRecInterferencePucchPwr                                        0             0             0
+ Int_RadioRecInterferencePwr                                             0             0             0
+
+
+[1;32mILL00778[0m
+
+ILL00778> lh ru fui get vswr 1
+
+
+$ lhsh 000100/BXP_0_1 fui get vswr 1
+0001BXP_0_1: vswr:  21.9[dB]
+=============================================================================================
+$ lhsh 000100/BXP_1_1 fui get vswr 1
+0001BXP_1_1: vswr:  26.2[dB]
+=============================================================================================
+$ lhsh 000100/BXP_2_1 fui get vswr 1
+0001BXP_2_1: vswr:  22.9[dB]
+$ 
+
+[1;32mILL00778[0m
+
+ILL00778> lh ru fui get vswr 2
+
+$ lhsh 000100/BXP_0_1 fui get vswr 2
+0001BXP_0_1: vswr:  21.1[dB]
+=============================================================================================
+$ lhsh 000100/BXP_1_1 fui get vswr 2
+0001BXP_1_1: vswr:  23.2[dB]
+=============================================================================================
+$ lhsh 000100/BXP_2_1 fui get vswr 2
+0001BXP_2_1: vswr:  21.6[dB]
+$ 
+
+[1;32mILL00778[0m
+
+ILL00778> st ret
+
+
+Proxy  Adm State     Op. State     MO
+===================================================================================
+  335                0 (DISABLED)  Equipment=1,AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1
+  337                0 (DISABLED)  Equipment=1,AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1
+  347                0 (DISABLED)  Equipment=1,AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1
+  349                0 (DISABLED)  Equipment=1,AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1
+  366                0 (DISABLED)  Equipment=1,AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1
+  368                0 (DISABLED)  Equipment=1,AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1
+===================================================================================
+Total: 6 
+
+ILL00778> hget retsub userlabel|iuantBaseStationId
+
+
+MO                                                iuantBaseStationId userLabel
+=================================================================================================================
+AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1                             
+AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1                             
+AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1                             
+AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1                             
+AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1                             
+AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1                             
+=================================================================================================================
+Total: 6 
+
+ILL00778> get . electrical
+
+
+MO                                                      Attribute         Value
+=================================================================================================================
+AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 30
+AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 30
+AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 30
+AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 30
+AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 30
+AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 30
+=================================================================================================================
+Total: 6 
+
+ILL00778> st tma
+
+
+Proxy  Adm State     Op. State     MO
+===================================================================================
+===================================================================================
+Total: 0 
+
+ILL00778> hget sectorcar reserved
+
+
+MO              reservedBy                       
+=================================================================================================================
+SectorCarrier=1 [1] = EUtranCellFDD=ILL00778_7A_1
+SectorCarrier=2 [1] = EUtranCellFDD=ILL00778_7B_1
+SectorCarrier=3 [1] = EUtranCellFDD=ILL00778_7C_1
+=================================================================================================================
+Total: 3 
+
+ILL00778> cabx
+
+
+SMN APN  BOARD    FAULT  OPER   MAINT  STAT    PRODUCTNUMBER  REV    SERIAL     DATE     TEMP COREMGR
+====================================================================================================================
+  0   1  DUS4101  OFF    ON     OFF    OFF     KDU137624/1    R5A/A  D169756339 20130904 33C  Active*
+--------------------------------------------------------------------------------------------------------------------
+
+================================================================
+SMN  ProductNr           Rev   Name        Date      SerialNr
+================================================================
+  0  ROJ999999           *     BACKPLANE             
+----------------------------------------------------------------
+
+==============================================================================================================================
+SMN APN PORT     BOARD            FAULT  OPER   MAINT  PRODUCT NR   REV    SERIAL       DATE     TEMP  AuxPIU  Cells
+==============================================================================================================================
+  0   1 BXP_0_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R3B    CF81736255   20140218 13.3  RRU-1   ILL00778_7A_1
+  0   1 BXP_1_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R3B    CF81761435   20140303 11.0  RRU-2   ILL00778_7B_1
+  0   1 BXP_2_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R3B    CF81739943   20140221  9.6  RRU-3   ILL00778_7C_1
+------------------------------------------------------------------------------------------------------------------------------
+
+====================================================================================================================
+SMN APN PORT     BOARD      AuxPIU   TX1(W/dBm)  TX2(W/dBm)  VSWR1 (RL1) VSWR2 (RL2)  Cells (cellId,PCI)
+====================================================================================================================
+  0   1 BXP_0_1  RRUS11B12  RRU-1    0.3 (24.7)  0.3 (24.4)  1.17 (22.0) 1.18 (21.7)  ILL00778_7A_1 (15,366)
+  0   1 BXP_1_1  RRUS11B12  RRU-2    0.4 (25.7)  0.2 (23.6)  1.10 (26.2) 1.16 (22.5)  ILL00778_7B_1 (16,367)
+  0   1 BXP_2_1  RRUS11B12  RRU-3    0.2 (23.8)  0.2 (23.6)  1.15 (22.9) 1.18 (21.6)  ILL00778_7C_1 (17,368)
+--------------------------------------------------------------------------------------------------------------------
+
+[1;32mILL00778[0m
+
+ILL00778> hget sector tx|rx
+
+
+MO              noOfRxAntennas noOfTxAntennas noOfUsedRxAntennas noOfUsedTxAntennas rfBranchRxRef rfBranchTxRef
+=================================================================================================================
+SectorCarrier=1 2              2              2                  2                  [0] =         [0] =        
+SectorCarrier=2 2              2              2                  2                  [0] =         [0] =        
+SectorCarrier=3 2              2              2                  2                  [0] =         [0] =        
+=================================================================================================================
+Total: 3 
+
+ILL00778> hget sector power
+
+
+MO              maximumTransmissionPower partOfSectorPower
+=================================================================================================================
+SectorCarrier=1 360                      7                
+SectorCarrier=2 360                      7                
+SectorCarrier=3 360                      7                
+=================================================================================================================
+Total: 3 
+
+MO                        availableSectorPower configuredOutputPower
+=================================================================================================================
+SectorEquipmentFunction=1 4200                 60000                
+SectorEquipmentFunction=2 4200                 60000                
+SectorEquipmentFunction=3 4200                 60000                
+=================================================================================================================
+Total: 3 
+
+ILL00778> hget rfb aup|res
+
+
+MO                            auPortRef                                                        reservedBy                     
+=================================================================================================================
+AntennaUnitGroup=1,RfBranch=1 [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=1
+AntennaUnitGroup=1,RfBranch=2 [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=1
+AntennaUnitGroup=2,RfBranch=1 [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=2
+AntennaUnitGroup=2,RfBranch=2 [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=2
+AntennaUnitGroup=3,RfBranch=1 [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=3
+AntennaUnitGroup=3,RfBranch=2 [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=3
+=================================================================================================================
+Total: 6 
+
+ILL00778> pst
+
+
+  PROXY  SCANNER-NAME                                                  STATE
+================================================================================
+      1  PREDEF.STATS                                                  ACTIVE
+      9  PREDEF.10000.CELLTRACE                                        SUSPENDED
+     10  PREDEF.10001.CELLTRACE                                        SUSPENDED
+     11  PREDEF.10002.CELLTRACE                                        SUSPENDED
+     12  PREDEF.10003.CELLTRACE                                        SUSPENDED
+     13  PREDEF.10004.CELLTRACE                                        SUSPENDED
+     14  PREDEF.10005.CELLTRACE                                        ACTIVE
+     16  USERDEF.FFA__National_PM_Standard_eNodeB_L14A_GS_14.00.Profile=15002039.Continuous=Y.STATS  ACTIVE
+================================================================================
+>>> Total: 8 
+
+************************************** 
+
+NODEB / ENODEB ID  :ILL00778
+TECHNOLOGY  :LTE
+RNC ID  :NA
+Date  :02102015_23_40
+NIC Integrator  :esugrav
+MARKET  :ATT_DUS41_Auto_Integration_Scratch_Load_w_L12B_GUI_and_Upgrade_to_L13A,ATT_RBS6601_New Site Build
+OSS  :CR-LTE-AKR1E3
+NEW CARRIER  :1C
+UTRANCELL/EUTRANCELLS OF NEW CARRIER  :
+ILL00778_7A_1
+ILL00778_7B_1
+ILL00778_7C_1
+CallTest Result  :Y
+FE NAME  :Vladimir Rusia
+FE PHONE No  :12145001588
+SOW  :Illinois-Wisconsin
+WAS 911 DONE?:NO
+WAS NEA TESTING DONE?:NO
+PTN Number:N/A
+EAMS Activity ID:102655
+Implementation Manager:enis.orahovac@ericsson.com

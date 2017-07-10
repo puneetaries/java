@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derby.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_cs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_de_DE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_es.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_fr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_hu.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_it.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_ja_JP.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_ko_KR.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_pl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_pt_BR.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_ru.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_zh_CN.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbynet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyoptionaltools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbyrun.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/derbytools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/java-mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/javax.activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/poi-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/poi-examples-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/poi-excelant-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/poi-ooxml-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/poi-ooxml-schemas-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/poi-scratchpad-3.10.1-20140818.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/epunsri/workspace/CODTool/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

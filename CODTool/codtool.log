@@ -1,0 +1,1101 @@
+2015-02-16 10:46:13 DEBUG CODTool:42 - COD Tool Started : Mon Feb 16 10:46:13 IST 2015
+2015-02-16 10:46:13 DEBUG CODTool:43 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 10:46:13 DEBUG CODTool:46 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 10:46:13 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:13 DEBUG CODTool:55 - COD Tool Reading property file Done
+2015-02-16 10:46:13 DEBUG CODToolUtil:193 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 10:46:13 DEBUG CODToolUtil:201 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 10:46:13 DEBUG CODTool:69 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201510
+2015-02-16 10:46:13 DEBUG CODTool:77 - CODTool- Modified Date of File is  :1420793994000
+2015-02-16 10:46:13 DEBUG CODTool:84 - CODTool- Modified date of file in custom format : 01:09:2015:14
+2015-02-16 10:46:13 DEBUG CODTool:89 - Modified Date in Hour Fetched By CODTool from file is :109201514
+2015-02-16 10:46:13 DEBUG CODTool:92 - CODTool- MODIFIED DATE: 109201514   TOOL DATE:    216201510
+2015-02-16 10:46:13 DEBUG CODTool:2134 - File Date:: 109201514 not matched with Tool Date: 216201510 hence Skipping
+2015-02-16 10:46:13 DEBUG CODTool:2135 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 10:46:13 DEBUG CODTool:77 - CODTool- Modified Date of File is  :1420793876000
+2015-02-16 10:46:13 DEBUG CODTool:84 - CODTool- Modified date of file in custom format : 01:09:2015:14
+2015-02-16 10:46:13 DEBUG CODTool:89 - Modified Date in Hour Fetched By CODTool from file is :109201514
+2015-02-16 10:46:13 DEBUG CODTool:92 - CODTool- MODIFIED DATE: 109201514   TOOL DATE:    216201510
+2015-02-16 10:46:13 DEBUG CODTool:2134 - File Date:: 109201514 not matched with Tool Date: 216201510 hence Skipping
+2015-02-16 10:46:13 DEBUG CODTool:2135 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 10:46:13 DEBUG CODTool:77 - CODTool- Modified Date of File is  :1423814121465
+2015-02-16 10:46:13 DEBUG CODTool:84 - CODTool- Modified date of file in custom format : 02:13:2015:13
+2015-02-16 10:46:13 DEBUG CODTool:89 - Modified Date in Hour Fetched By CODTool from file is :213201513
+2015-02-16 10:46:13 DEBUG CODTool:92 - CODTool- MODIFIED DATE: 213201513   TOOL DATE:    216201510
+2015-02-16 10:46:13 DEBUG CODTool:2134 - File Date:: 213201513 not matched with Tool Date: 216201510 hence Skipping
+2015-02-16 10:46:13 DEBUG CODTool:2135 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 10:46:13 DEBUG CODTool:77 - CODTool- Modified Date of File is  :1424063624421
+2015-02-16 10:46:13 DEBUG CODTool:84 - CODTool- Modified date of file in custom format : 02:16:2015:10
+2015-02-16 10:46:13 DEBUG CODTool:89 - Modified Date in Hour Fetched By CODTool from file is :216201510
+2015-02-16 10:46:13 DEBUG CODTool:92 - CODTool- MODIFIED DATE: 216201510   TOOL DATE:    216201510
+2015-02-16 10:46:13 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 10:46:14 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 10:46:14 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 10:46:14 DEBUG CODToolUtil:176 - CODToolUtil-getDate() - start
+2015-02-16 10:46:14 DEBUG CODToolUtil:184 - CODToolUtil-getDate() - end
+2015-02-16 10:46:14 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 10:46:14 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 10:46:14 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 10:46:14 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 10:46:14 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 10:46:14 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 10:46:14 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 10:46:14 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 10:46:14 DEBUG CODTool:105 - CODTool Records Inserted in CODPROCESSED 02-16-2015 10:46:14COD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.txt
+2015-02-16 10:46:14 DEBUG CODTool:841 - CODTool- CASE 4 WCDMA,SL And CallTestY foundCOD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.txt
+2015-02-16 10:46:15 DEBUG CODTool:853 - CODTool- Fetched Cell Id of WCDMA:::SCCLU0023
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:135 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:168 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODToolUtil:75 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 10:46:15 DEBUG CODToolUtil:118 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 10:46:15 DEBUG CODTool:1041 - CODTool- File Written C:\CODTool\output\COD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.xlsm
+2015-02-16 10:46:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: host
+2015-02-16 10:46:15 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: mailFrom
+2015-02-16 10:46:15 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailto
+2015-02-16 10:46:15 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailcc
+2015-02-16 10:46:15 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailbcc
+2015-02-16 10:46:15 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: message
+2015-02-16 10:46:15 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 10:46:15 DEBUG EmailSender:37 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - start
+2015-02-16 10:46:22 DEBUG EmailSender:121 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - end
+2015-02-16 10:46:22 DEBUG CODTool:1064 - CODTool- Email sent.with attachement for Case 2C:\CODTool\output\COD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.xlsmtopuneet.raj.srivastava@ericsson.comccbcc
+2015-02-16 10:46:22 DEBUG CODToolUtil:230 - CODToolUtil-deleteFile(String) - start
+2015-02-16 10:46:22 DEBUG CODToolUtil:241 - CODToolUtil-deleteFile(String)COD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.xlsm is deleted!
+2015-02-16 10:46:22 DEBUG CODToolUtil:262 - CODToolUtil-deleteFile(String) - end
+2015-02-16 10:46:22 DEBUG CODTool:1076 - CODTool)C:\CODTool\output\COD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.xlsmDeleted
+2015-02-16 10:46:22 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 10:46:22 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 10:46:22 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 10:46:22 DEBUG CODToolUtil:176 - CODToolUtil-getDate() - start
+2015-02-16 10:46:22 DEBUG CODToolUtil:184 - CODToolUtil-getDate() - end
+2015-02-16 10:46:22 DEBUG CODDAO:110 - insertRecordIntoCODPROCESSED(String, String, String, String) - start
+2015-02-16 10:46:22 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 10:46:22 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 10:46:22 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 10:46:22 DEBUG CODDAO:135 - insertRecordIntoCODPROCESSED(String, String, String, String) - Record is inserted into CODPROCESSED table!
+2015-02-16 10:46:22 DEBUG CODDAO:158 - Connection Closed
+2015-02-16 10:46:22 DEBUG CODDAO:165 - insertRecordIntoCODPROCESSED(String, String, String, String) - end
+2015-02-16 10:46:22 DEBUG CODTool:1093 - CODTool- Record Inserted into CODPROCESSED Table:::02-16-2015 10:46:22COD_WCDMA_SCCLU0023_01312015_13_39_SL_CallTestY.txtWCDMAY
+2015-02-16 10:46:22 DEBUG CODTool:1094 - COD Tool Processing finished
+2015-02-16 10:46:22 DEBUG CODTool:1095 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 10:46:22 DEBUG CODTool:77 - CODTool- Modified Date of File is  :1423127119412
+2015-02-16 10:46:22 DEBUG CODTool:84 - CODTool- Modified date of file in custom format : 02:05:2015:14
+2015-02-16 10:46:22 DEBUG CODTool:89 - Modified Date in Hour Fetched By CODTool from file is :205201514
+2015-02-16 10:46:22 DEBUG CODTool:92 - CODTool- MODIFIED DATE: 205201514   TOOL DATE:    216201510
+2015-02-16 10:46:22 DEBUG CODTool:2134 - File Date:: 205201514 not matched with Tool Date: 216201510 hence Skipping
+2015-02-16 10:46:22 DEBUG CODTool:2135 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 10:46:22 DEBUG CODTool:77 - CODTool- Modified Date of File is  :1423810829996
+2015-02-16 10:46:22 DEBUG CODTool:84 - CODTool- Modified date of file in custom format : 02:13:2015:12
+2015-02-16 10:46:22 DEBUG CODTool:89 - Modified Date in Hour Fetched By CODTool from file is :213201512
+2015-02-16 10:46:22 DEBUG CODTool:92 - CODTool- MODIFIED DATE: 213201512   TOOL DATE:    216201510
+2015-02-16 10:46:22 DEBUG CODTool:2142 - CODTool - Not a valid file :FILE.txt , Skipping
+2015-02-16 10:46:22 DEBUG CODTool:2143 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:06:37 DEBUG CODTool:42 - COD Tool Started : Mon Feb 16 11:06:37 IST 2015
+2015-02-16 11:06:37 DEBUG CODTool:43 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:06:37 DEBUG CODTool:46 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:06:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:06:37 DEBUG CODToolUtil:56 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODTool:42 - COD Tool Started : Mon Feb 16 11:08:47 IST 2015
+2015-02-16 11:08:47 DEBUG CODTool:43 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:08:47 DEBUG CODTool:46 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:08:47 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:08:47 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODTool:45 - COD Tool Started : Mon Feb 16 11:10:34 IST 2015
+2015-02-16 11:10:34 DEBUG CODTool:46 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:10:34 DEBUG CODTool:49 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:10:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:10:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODTool:45 - COD Tool Started : Mon Feb 16 11:11:21 IST 2015
+2015-02-16 11:11:21 DEBUG CODTool:46 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:11:21 DEBUG CODTool:49 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:11:21 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:11:21 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODTool:47 - COD Tool Started : Mon Feb 16 11:13:25 IST 2015
+2015-02-16 11:13:25 DEBUG CODTool:48 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:13:25 DEBUG CODTool:51 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:13:25 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:13:25 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 11:13:25 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 11:13:25 DEBUG CODTool:76 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201511
+2015-02-16 11:47:07 DEBUG CODTool:47 - COD Tool Started : Mon Feb 16 11:47:07 IST 2015
+2015-02-16 11:47:07 DEBUG CODTool:48 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:47:07 DEBUG CODTool:51 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:47:07 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:47:07 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODTool:54 - COD Tool Started : Mon Feb 16 11:50:10 IST 2015
+2015-02-16 11:50:10 DEBUG CODTool:55 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:50:10 DEBUG CODTool:58 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:50:10 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:50:10 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 11:50:10 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 11:50:10 DEBUG CODTool:83 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201511
+2015-02-16 11:51:15 DEBUG CODTool:55 - COD Tool Started : Mon Feb 16 11:51:15 IST 2015
+2015-02-16 11:51:15 DEBUG CODTool:56 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:51:15 DEBUG CODTool:59 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:51:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:15 ERROR CODTool:46 - CODTool-Input Directory not found::C:\CODTool\testing\
+2015-02-16 11:51:15 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 11:51:15 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 11:51:15 DEBUG CODTool:84 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201511
+2015-02-16 11:51:32 DEBUG CODTool:55 - COD Tool Started : Mon Feb 16 11:51:32 IST 2015
+2015-02-16 11:51:32 DEBUG CODTool:56 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 11:51:32 DEBUG CODTool:59 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 11:51:32 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 11:51:32 DEBUG CODTool:46 - CODTool-Input Directory not found::C:\CODTool\testing\
+2015-02-16 11:51:32 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 11:51:32 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 11:51:32 DEBUG CODTool:84 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201511
+2015-02-16 12:38:19 DEBUG CODTool:45 - COD Tool Started : Mon Feb 16 12:38:19 IST 2015
+2015-02-16 12:38:19 DEBUG CODTool:46 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:38:19 DEBUG CODTool:49 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:38:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 12:38:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODTool:45 - COD Tool Started : Mon Feb 16 12:39:06 IST 2015
+2015-02-16 12:39:06 DEBUG CODTool:46 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:39:06 DEBUG CODTool:49 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 12:39:06 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:39:06 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 12:39:06 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 12:39:06 DEBUG CODTool:74 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201512
+2015-02-16 12:39:06 DEBUG CODTool:82 - CODTool- Modified Date of File is  :1424069732507
+2015-02-16 12:39:06 DEBUG CODTool:89 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 12:39:06 DEBUG CODTool:94 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 12:39:06 DEBUG CODTool:97 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201512
+2015-02-16 12:39:12 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:39:13 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:39:13 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:39:20 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:39:20 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:39:32 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 12:39:32 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 12:39:32 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:39:32 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:39:32 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:39:33 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 12:39:33 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 12:39:33 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 12:39:40 DEBUG CODTool:110 - CODTool Records Inserted in CODPROCESSED 02-16-2015 12:39:20COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.txt
+2015-02-16 12:40:13 DEBUG CODTool:586 - CODTool- CASE 3 WCDMA ,Manual And CallTestY foundCOD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.txt
+2015-02-16 12:40:25 DEBUG CODTool:598 - CODTool- Fetched Cell Id of WCDMAILU0770
+2015-02-16 12:40:26 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:26 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:27 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:27 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:27 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:27 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:31 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:31 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:32 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:32 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:33 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:33 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:34 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:34 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:35 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:35 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:35 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:35 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:35 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:35 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:35 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:35 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:36 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:36 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:36 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:36 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:36 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:36 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:36 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:36 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:37 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:37 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:37 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:37 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:37 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:40:37 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:40:38 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:38 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:38 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:38 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:38 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:38 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:39 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:39 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:39 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:39 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:39 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:39 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:40 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:40 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:40 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:40 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:40 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:40 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:42 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:42 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:42 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:42 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:42 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:42 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:42 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:42 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:43 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:40:43 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:40:50 DEBUG CODTool:786 - CODTool- File Written C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsm
+2015-02-16 12:40:53 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: host
+2015-02-16 12:40:53 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:40:53 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: mailFrom
+2015-02-16 12:40:53 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:41:01 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailto
+2015-02-16 12:41:01 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:41:02 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailcc
+2015-02-16 12:41:02 ERROR CODToolUtil:56 - Property keyCODmailcc Not found
+2015-02-16 12:41:02 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:41:02 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailbcc
+2015-02-16 12:41:02 ERROR CODToolUtil:56 - Property keyCODmailbcc Not found
+2015-02-16 12:41:02 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:41:02 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: message
+2015-02-16 12:41:02 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:41:04 DEBUG EmailSender:37 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - start
+2015-02-16 12:41:05 DEBUG EmailSender:121 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - end
+2015-02-16 12:41:22 DEBUG CODTool:809 - CODTool- Email sent.with attachement for Case 2C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsmtopuneet.raj.srivastava@ericsson.comccbcc
+2015-02-16 12:41:25 DEBUG CODToolUtil:234 - CODToolUtil-deleteFile(String) - start
+2015-02-16 12:41:25 DEBUG CODToolUtil:245 - CODToolUtil-deleteFile(String)COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsm is deleted!
+2015-02-16 12:41:25 DEBUG CODToolUtil:266 - CODToolUtil-deleteFile(String) - end
+2015-02-16 12:41:44 DEBUG CODTool:821 - CODTool)C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsmDeleted
+2015-02-16 12:41:50 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:41:50 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:41:50 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:41:51 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:41:51 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:41:52 DEBUG CODDAO:110 - insertRecordIntoCODPROCESSED(String, String, String, String) - start
+2015-02-16 12:41:52 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:41:52 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:41:52 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:41:52 DEBUG CODDAO:135 - insertRecordIntoCODPROCESSED(String, String, String, String) - Record is inserted into CODPROCESSED table!
+2015-02-16 12:41:52 DEBUG CODDAO:158 - Connection Closed
+2015-02-16 12:41:52 DEBUG CODDAO:165 - insertRecordIntoCODPROCESSED(String, String, String, String) - end
+2015-02-16 12:41:53 DEBUG CODTool:838 - CODTool- Record Inserted into CODPROCESSED Table:::02-16-2015 12:41:51COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.txtWCDMAY
+2015-02-16 12:41:54 DEBUG CODTool:839 - COD Tool Processing finished
+2015-02-16 12:41:55 DEBUG CODTool:840 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:42:08 DEBUG CODTool:82 - CODTool- Modified Date of File is  :1424069739321
+2015-02-16 12:42:17 DEBUG CODTool:89 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 12:42:21 DEBUG CODTool:94 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 12:42:24 DEBUG CODTool:97 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201512
+2015-02-16 12:42:31 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:42:31 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:42:31 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:42:31 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:42:31 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:42:34 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 12:42:34 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 12:42:34 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:42:34 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:42:34 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:42:34 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 12:42:34 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 12:42:34 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 12:42:37 DEBUG CODTool:110 - CODTool Records Inserted in CODPROCESSED 02-16-2015 12:42:31COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.txt
+2015-02-16 12:43:03 DEBUG CODTool:586 - CODTool- CASE 3 WCDMA ,Manual And CallTestY foundCOD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.txt
+2015-02-16 12:43:12 DEBUG CODTool:598 - CODTool- Fetched Cell Id of WCDMAILU0770
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:43:12 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:43:12 DEBUG CODTool:786 - CODTool- File Written C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsm
+2015-02-16 12:43:12 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: host
+2015-02-16 12:43:12 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:43:12 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: mailFrom
+2015-02-16 12:43:12 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:43:12 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailto
+2015-02-16 12:43:12 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:43:12 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailcc
+2015-02-16 12:43:12 ERROR CODToolUtil:56 - Property keyCODmailcc Not found
+2015-02-16 12:43:12 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:43:12 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailbcc
+2015-02-16 12:43:12 ERROR CODToolUtil:56 - Property keyCODmailbcc Not found
+2015-02-16 12:43:12 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:43:12 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: message
+2015-02-16 12:43:12 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:43:12 DEBUG EmailSender:37 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - start
+2015-02-16 12:43:18 DEBUG EmailSender:121 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - end
+2015-02-16 12:43:18 DEBUG CODTool:809 - CODTool- Email sent.with attachement for Case 2C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsmtopuneet.raj.srivastava@ericsson.comccbcc
+2015-02-16 12:43:18 DEBUG CODToolUtil:234 - CODToolUtil-deleteFile(String) - start
+2015-02-16 12:43:18 DEBUG CODToolUtil:245 - CODToolUtil-deleteFile(String)COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsm is deleted!
+2015-02-16 12:43:18 DEBUG CODToolUtil:266 - CODToolUtil-deleteFile(String) - end
+2015-02-16 12:43:18 DEBUG CODTool:821 - CODTool)C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsmDeleted
+2015-02-16 12:43:18 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:43:18 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:43:18 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:43:18 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:43:18 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:43:18 DEBUG CODDAO:110 - insertRecordIntoCODPROCESSED(String, String, String, String) - start
+2015-02-16 12:43:18 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:43:18 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:43:18 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:43:18 DEBUG CODDAO:135 - insertRecordIntoCODPROCESSED(String, String, String, String) - Record is inserted into CODPROCESSED table!
+2015-02-16 12:43:18 DEBUG CODDAO:158 - Connection Closed
+2015-02-16 12:43:18 DEBUG CODDAO:165 - insertRecordIntoCODPROCESSED(String, String, String, String) - end
+2015-02-16 12:43:18 DEBUG CODTool:838 - CODTool- Record Inserted into CODPROCESSED Table:::02-16-2015 12:43:18COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.txtWCDMAY
+2015-02-16 12:43:18 DEBUG CODTool:839 - COD Tool Processing finished
+2015-02-16 12:43:18 DEBUG CODTool:840 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:43:18 DEBUG CODTool:82 - CODTool- Modified Date of File is  :1424069726046
+2015-02-16 12:43:18 DEBUG CODTool:89 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 12:43:18 DEBUG CODTool:94 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 12:43:18 DEBUG CODTool:97 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201512
+2015-02-16 12:43:50 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:43:50 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:43:50 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:43:50 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:43:50 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:43:51 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 12:43:51 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 12:43:51 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:43:51 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:43:51 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:43:51 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 12:43:51 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 12:43:51 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 12:43:51 DEBUG CODTool:110 - CODTool Records Inserted in CODPROCESSED 02-16-2015 12:43:50COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.txt
+2015-02-16 12:52:15 DEBUG CODTool:45 - COD Tool Started : Mon Feb 16 12:52:15 IST 2015
+2015-02-16 12:52:15 DEBUG CODTool:46 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:52:15 DEBUG CODTool:49 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 12:52:15 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:15 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 12:52:15 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 12:52:15 DEBUG CODTool:74 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201512
+2015-02-16 12:52:15 DEBUG CODTool:82 - CODTool- Modified Date of File is  :1424069732507
+2015-02-16 12:52:15 DEBUG CODTool:89 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 12:52:15 DEBUG CODTool:94 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 12:52:15 DEBUG CODTool:97 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201512
+2015-02-16 12:52:15 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:15 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:15 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:15 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:52:15 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:52:15 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 12:52:15 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 12:52:15 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:15 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:15 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:16 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 12:52:16 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 12:52:16 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 12:52:16 DEBUG CODTool:110 - CODTool Records Inserted in CODPROCESSED 02-16-2015 12:52:15COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.txt
+2015-02-16 12:52:16 DEBUG CODTool:586 - CODTool- CASE 3 WCDMA ,Manual And CallTestY foundCOD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.txt
+2015-02-16 12:52:17 DEBUG CODTool:598 - CODTool- Fetched Cell Id of WCDMAILU0770
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:17 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:17 DEBUG CODTool:786 - CODTool- File Written C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsm
+2015-02-16 12:52:17 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: host
+2015-02-16 12:52:17 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:17 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: mailFrom
+2015-02-16 12:52:17 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:17 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailto
+2015-02-16 12:52:17 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:17 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailcc
+2015-02-16 12:52:17 ERROR CODToolUtil:56 - Property keyCODmailcc Not found
+2015-02-16 12:52:17 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:17 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailbcc
+2015-02-16 12:52:17 ERROR CODToolUtil:56 - Property keyCODmailbcc Not found
+2015-02-16 12:52:17 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:17 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: message
+2015-02-16 12:52:17 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:17 DEBUG EmailSender:37 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - start
+2015-02-16 12:52:18 DEBUG EmailSender:121 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - end
+2015-02-16 12:52:18 DEBUG CODTool:809 - CODTool- Email sent.with attachement for Case 2C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsmtopuneet.raj.srivastava@ericsson.comccbcc
+2015-02-16 12:52:18 DEBUG CODToolUtil:234 - CODToolUtil-deleteFile(String) - start
+2015-02-16 12:52:18 DEBUG CODToolUtil:245 - CODToolUtil-deleteFile(String)COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsm is deleted!
+2015-02-16 12:52:18 DEBUG CODToolUtil:266 - CODToolUtil-deleteFile(String) - end
+2015-02-16 12:52:18 DEBUG CODTool:821 - CODTool)C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.xlsmDeleted
+2015-02-16 12:52:18 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:18 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:18 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:18 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:52:18 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:52:18 DEBUG CODDAO:110 - insertRecordIntoCODPROCESSED(String, String, String, String) - start
+2015-02-16 12:52:18 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:18 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:18 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:18 DEBUG CODDAO:135 - insertRecordIntoCODPROCESSED(String, String, String, String) - Record is inserted into CODPROCESSED table!
+2015-02-16 12:52:18 DEBUG CODDAO:158 - Connection Closed
+2015-02-16 12:52:18 DEBUG CODDAO:165 - insertRecordIntoCODPROCESSED(String, String, String, String) - end
+2015-02-16 12:52:18 DEBUG CODTool:838 - CODTool- Record Inserted into CODPROCESSED Table:::02-16-2015 12:52:18COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY - Copy.txtWCDMAY
+2015-02-16 12:52:18 DEBUG CODTool:839 - COD Tool Processing finished
+2015-02-16 12:52:18 DEBUG CODTool:840 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:52:18 DEBUG CODTool:82 - CODTool- Modified Date of File is  :1424069739321
+2015-02-16 12:52:18 DEBUG CODTool:89 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 12:52:18 DEBUG CODTool:94 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 12:52:18 DEBUG CODTool:97 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201512
+2015-02-16 12:52:18 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:18 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:18 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:18 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:52:18 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:52:18 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 12:52:18 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 12:52:18 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:18 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:18 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:18 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 12:52:18 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 12:52:18 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 12:52:18 DEBUG CODTool:110 - CODTool Records Inserted in CODPROCESSED 02-16-2015 12:52:18COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.txt
+2015-02-16 12:52:18 DEBUG CODTool:586 - CODTool- CASE 3 WCDMA ,Manual And CallTestY foundCOD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.txt
+2015-02-16 12:52:19 DEBUG CODTool:598 - CODTool- Fetched Cell Id of WCDMAILU0770
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:19 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:19 DEBUG CODTool:786 - CODTool- File Written C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsm
+2015-02-16 12:52:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: host
+2015-02-16 12:52:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: mailFrom
+2015-02-16 12:52:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailto
+2015-02-16 12:52:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailcc
+2015-02-16 12:52:19 ERROR CODToolUtil:56 - Property keyCODmailcc Not found
+2015-02-16 12:52:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailbcc
+2015-02-16 12:52:19 ERROR CODToolUtil:56 - Property keyCODmailbcc Not found
+2015-02-16 12:52:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:19 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: message
+2015-02-16 12:52:19 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:19 DEBUG EmailSender:37 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - start
+2015-02-16 12:52:20 DEBUG EmailSender:121 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - end
+2015-02-16 12:52:20 DEBUG CODTool:809 - CODTool- Email sent.with attachement for Case 2C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsmtopuneet.raj.srivastava@ericsson.comccbcc
+2015-02-16 12:52:20 DEBUG CODToolUtil:234 - CODToolUtil-deleteFile(String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:245 - CODToolUtil-deleteFile(String)COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsm is deleted!
+2015-02-16 12:52:20 DEBUG CODToolUtil:266 - CODToolUtil-deleteFile(String) - end
+2015-02-16 12:52:20 DEBUG CODTool:821 - CODTool)C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.xlsmDeleted
+2015-02-16 12:52:20 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:20 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:20 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:52:20 DEBUG CODDAO:110 - insertRecordIntoCODPROCESSED(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:20 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:20 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:20 DEBUG CODDAO:135 - insertRecordIntoCODPROCESSED(String, String, String, String) - Record is inserted into CODPROCESSED table!
+2015-02-16 12:52:20 DEBUG CODDAO:158 - Connection Closed
+2015-02-16 12:52:20 DEBUG CODDAO:165 - insertRecordIntoCODPROCESSED(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODTool:838 - CODTool- Record Inserted into CODPROCESSED Table:::02-16-2015 12:52:20COD_WCDMA_ILU0770_02132015_13_53_Manual_CallTestY.txtWCDMAY
+2015-02-16 12:52:20 DEBUG CODTool:839 - COD Tool Processing finished
+2015-02-16 12:52:20 DEBUG CODTool:840 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 12:52:20 DEBUG CODTool:82 - CODTool- Modified Date of File is  :1424069726046
+2015-02-16 12:52:20 DEBUG CODTool:89 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 12:52:20 DEBUG CODTool:94 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 12:52:20 DEBUG CODTool:97 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201512
+2015-02-16 12:52:20 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:20 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:20 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:52:20 DEBUG CODDAO:55 - insertRecordIntoCODSTATS(String, String) - start
+2015-02-16 12:52:20 DEBUG CODDAO:65 - CODDAO-insertRecordIntoCODSTATS(String, String)INSERT INTO CODSTATS (FDATE, FILENAME) VALUES(?,?)
+2015-02-16 12:52:20 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:20 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:20 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:20 DEBUG CODDAO:78 - insertRecordIntoCODSTATS(String, String) - Record is inserted into CODSTATS table!
+2015-02-16 12:52:20 DEBUG CODDAO:97 - Connection Closed
+2015-02-16 12:52:20 DEBUG CODDAO:103 - CODDAO-insertRecordIntoCODSTATS(String, String) - end
+2015-02-16 12:52:20 DEBUG CODTool:110 - CODTool Records Inserted in CODPROCESSED 02-16-2015 12:52:20COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.txt
+2015-02-16 12:52:20 DEBUG CODTool:1622 - CODTool- CASE 7 WCDMA ,Manual with CallTestN foundCOD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.txt
+2015-02-16 12:52:20 DEBUG CODTool:1626 - CODTool- WCDMA found:C:\testing\COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.txt
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:139 - CODToolUtil-searchExtraLog(String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:172 - CODToolUtil-searchExtraLog(String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODToolUtil:79 - CODToolUtil-searchLogLTE(String, String, String, String) - start
+2015-02-16 12:52:20 DEBUG CODToolUtil:122 - CODToolUtil-searchLogLTE(String, String, String, String) - end
+2015-02-16 12:52:20 DEBUG CODTool:1831 - CODTool- File Written C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.xlsm
+2015-02-16 12:52:20 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: host
+2015-02-16 12:52:20 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:20 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: mailFrom
+2015-02-16 12:52:20 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:20 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailtoN
+2015-02-16 12:52:20 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:20 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailccN
+2015-02-16 12:52:20 ERROR CODToolUtil:56 - Property keyCODmailccN Not found
+2015-02-16 12:52:20 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:20 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: CODmailbccN
+2015-02-16 12:52:20 ERROR CODToolUtil:56 - Property keyCODmailbccN Not found
+2015-02-16 12:52:20 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:20 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: message
+2015-02-16 12:52:20 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 12:52:20 DEBUG EmailSender:37 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - start
+2015-02-16 12:52:22 DEBUG EmailSender:121 - EmailSender-sendEmailWithAttachments(String, String, String, String, String, String, String, String[]) - end
+2015-02-16 12:52:22 DEBUG CODTool:1850 - CODTool- Email sent.with attachement for Case 4C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.xlsmtopuneet.raj.srivastava@ericsson.comccbcc
+2015-02-16 12:52:22 DEBUG CODToolUtil:234 - CODToolUtil-deleteFile(String) - start
+2015-02-16 12:52:22 DEBUG CODToolUtil:245 - CODToolUtil-deleteFile(String)COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.xlsm is deleted!
+2015-02-16 12:52:22 DEBUG CODToolUtil:266 - CODToolUtil-deleteFile(String) - end
+2015-02-16 12:52:22 DEBUG CODTool:1855 - CODTool)C:\CODTool\output\COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.xlsmDeleted
+2015-02-16 12:52:22 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:22 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:22 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:22 DEBUG CODToolUtil:180 - CODToolUtil-getDate() - start
+2015-02-16 12:52:22 DEBUG CODToolUtil:188 - CODToolUtil-getDate() - end
+2015-02-16 12:52:22 DEBUG CODDAO:110 - insertRecordIntoCODPROCESSED(String, String, String, String) - start
+2015-02-16 12:52:22 DEBUG CODDAO:32 - CODDAO-Making Connection to CODDb Databse :::getConnection(Connection) - start
+2015-02-16 12:52:22 DEBUG CODDAO:39 - Connected databasejdbc:derby:CODDb
+2015-02-16 12:52:22 DEBUG CODDAO:48 - CODDAO-getConnection(Connection) - end
+2015-02-16 12:52:22 DEBUG CODDAO:135 - insertRecordIntoCODPROCESSED(String, String, String, String) - Record is inserted into CODPROCESSED table!
+2015-02-16 12:52:22 DEBUG CODDAO:158 - Connection Closed
+2015-02-16 12:52:22 DEBUG CODDAO:165 - insertRecordIntoCODPROCESSED(String, String, String, String) - end
+2015-02-16 12:52:22 DEBUG CODTool:1872 - CODTool- Record Inserted into CODPROCESSED Table:::02-16-2015 12:52:22COD_WCDMA_ILU0770_02132015_13_59_Manual_CallTestN.txtWCDMAN
+2015-02-16 12:52:22 DEBUG CODTool:1873 - COD Tool Processing finished
+2015-02-16 12:52:22 DEBUG CODTool:1874 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 14:54:34 DEBUG CODTool:47 - COD Tool Start Time :1424078674012
+2015-02-16 14:54:34 DEBUG CODTool:48 - COD Tool Started : Mon Feb 16 14:54:34 IST 2015
+2015-02-16 14:54:34 DEBUG CODTool:49 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 14:54:34 DEBUG CODTool:52 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 14:54:34 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 14:54:34 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 14:54:34 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 14:54:34 DEBUG CODTool:77 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201514
+2015-02-16 14:54:34 DEBUG CODTool:85 - CODTool- Modified Date of File is  :1424069732507
+2015-02-16 14:54:34 DEBUG CODTool:92 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 14:54:34 DEBUG CODTool:97 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 14:54:34 DEBUG CODTool:100 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201514
+2015-02-16 14:54:34 DEBUG CODTool:2150 - File Date:: 216201512 not matched with Tool Date: 216201514 hence Skipping
+2015-02-16 14:54:34 DEBUG CODTool:2151 - COD Tool Processed Time :0Second
+2015-02-16 14:54:34 DEBUG CODTool:2152 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 14:54:34 DEBUG CODTool:85 - CODTool- Modified Date of File is  :1424069739321
+2015-02-16 14:54:34 DEBUG CODTool:92 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 14:54:34 DEBUG CODTool:97 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 14:54:34 DEBUG CODTool:100 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201514
+2015-02-16 14:54:34 DEBUG CODTool:2150 - File Date:: 216201512 not matched with Tool Date: 216201514 hence Skipping
+2015-02-16 14:54:34 DEBUG CODTool:2151 - COD Tool Processed Time :0Second
+2015-02-16 14:54:34 DEBUG CODTool:2152 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 14:54:34 DEBUG CODTool:85 - CODTool- Modified Date of File is  :1424069726046
+2015-02-16 14:54:34 DEBUG CODTool:92 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 14:54:34 DEBUG CODTool:97 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 14:54:34 DEBUG CODTool:100 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201514
+2015-02-16 14:54:34 DEBUG CODTool:2150 - File Date:: 216201512 not matched with Tool Date: 216201514 hence Skipping
+2015-02-16 14:54:34 DEBUG CODTool:2151 - COD Tool Processed Time :0Second
+2015-02-16 14:54:34 DEBUG CODTool:2152 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 15:02:37 DEBUG CODTool:47 - COD Tool Start Time :1424079157255
+2015-02-16 15:02:37 DEBUG CODTool:48 - COD Tool Started : Mon Feb 16 15:02:37 IST 2015
+2015-02-16 15:02:37 DEBUG CODTool:49 - COD Tool running in [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 15:02:37 DEBUG CODTool:52 - COD Tool Reading property file  CODTool.properties  to initialize constants
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: outputDir
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: inputDir
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileOKString
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: fileNOTOKString
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: dirSeprator
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: savedFileExtension
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:34 - CODToolUtil-Method getPropValues() - started with Key: templateCODFile
+2015-02-16 15:02:37 DEBUG CODToolUtil:60 - CODToolUtil-Method getPropValues() - END
+2015-02-16 15:02:37 DEBUG CODToolUtil:197 - CODToolUtil-getDateHourFormat() - start
+2015-02-16 15:02:37 DEBUG CODToolUtil:205 - CODToolUtil-getDateHourFormat() - end
+2015-02-16 15:02:37 DEBUG CODTool:77 - COD Tool -Current Date in Hour Fetched By CODTool from System is :216201515
+2015-02-16 15:02:37 DEBUG CODTool:85 - CODTool- Modified Date of File is  :1424069732507
+2015-02-16 15:02:37 DEBUG CODTool:92 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 15:02:37 DEBUG CODTool:97 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 15:02:37 DEBUG CODTool:100 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201515
+2015-02-16 15:02:37 DEBUG CODTool:2167 - File Date:: 216201512 not matched with Tool Date: 216201515 hence Skipping
+2015-02-16 15:02:37 DEBUG CODTool:2170 - COD Tool Processed Time :0Second
+2015-02-16 15:02:37 DEBUG CODTool:2171 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 15:02:37 DEBUG CODTool:85 - CODTool- Modified Date of File is  :1424069739321
+2015-02-16 15:02:37 DEBUG CODTool:92 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 15:02:37 DEBUG CODTool:97 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 15:02:37 DEBUG CODTool:100 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201515
+2015-02-16 15:02:37 DEBUG CODTool:2167 - File Date:: 216201512 not matched with Tool Date: 216201515 hence Skipping
+2015-02-16 15:02:37 DEBUG CODTool:2170 - COD Tool Processed Time :0Second
+2015-02-16 15:02:37 DEBUG CODTool:2171 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]
+2015-02-16 15:02:37 DEBUG CODTool:85 - CODTool- Modified Date of File is  :1424069726046
+2015-02-16 15:02:37 DEBUG CODTool:92 - CODTool- Modified date of file in custom format : 02:16:2015:12
+2015-02-16 15:02:37 DEBUG CODTool:97 - Modified Date in Hour Fetched By CODTool from file is :216201512
+2015-02-16 15:02:37 DEBUG CODTool:100 - CODTool- MODIFIED DATE: 216201512   TOOL DATE:    216201515
+2015-02-16 15:02:37 DEBUG CODTool:2167 - File Date:: 216201512 not matched with Tool Date: 216201515 hence Skipping
+2015-02-16 15:02:37 DEBUG CODTool:2170 - COD Tool Processed Time :0Second
+2015-02-16 15:02:37 DEBUG CODTool:2171 - CODTool-exited from [C:\Users\epunsri\workspace\CODTool]

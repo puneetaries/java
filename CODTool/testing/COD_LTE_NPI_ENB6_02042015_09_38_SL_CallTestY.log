@@ -1,0 +1,339 @@
+2015.01.08 06:38:12 CST -> S: 
+
+Sorting of MO list by order of LDN: activated.
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:12 CST -> SITE STATUS:: 
+
+150108-06:38:12 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+..
+=================================================================================================================
+MO                       administrativeState cellBarred     operationalState primaryPlmnReserved
+=================================================================================================================
+EUtranCellFDD=NPI_ENB6_1 1 (UNLOCKED)        1 (NOT_BARRED) 0 (DISABLED)     true               
+EUtranCellFDD=NPI_ENB6_2 1 (UNLOCKED)        1 (NOT_BARRED) 0 (DISABLED)     true               
+EUtranCellFDD=NPI_ENB6_3 1 (UNLOCKED)        1 (NOT_BARRED) 0 (DISABLED)     true               
+=================================================================================================================
+Total: 3 MOs
+
+Added 3 MOs to group: hget_group
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:13 CST -> ALARMS: 
+
+150108-06:38:12 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+Connecting to 10.123.128.34:56834 (CorbaSecurity=OFF, corba_class=2, java=1.5.0_22, jacoms=R84EX04, jacorb=R84E02)
+Trying file=/dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/tempfiles/20150108-063807_16383/ior16383
+Resolving the alarm service in OMS...
+Simple Alarm Client initialized...
+Starting to retrieve active alarms
+Nr of active alarms are: 9
+====================================================================================================================
+Date & Time (Local) S Specific Problem                    MO (Cause/AdditionalInfo)
+====================================================================================================================
+2015-01-08 09:53:29 m Remote IP Address Unreachable       Sctp=1 (1 assocId: 2, unreachableIpAddress: 10.123.155.67)
+2015-01-08 09:53:31 M Disconnected                        HwUnit=SUP-1 (equipment_malfunction)
+2015-01-08 09:53:32 M Disconnected                        HwUnit=SAU (equipment_malfunction)
+2015-01-08 09:53:38 M ExternalAlarm                       AuxPlugInUnit=RRU-1,DeviceGroup=ru,AlarmPort=1 (RBS LTE RRU DC SPD)
+2015-01-08 09:55:54 m LinkFailure                         Subrack=1,Slot=1,PlugInUnit=1,RiPort=C (No signal detected, id 1, port 3, cascadeNo 0, ruPortNo 0)
+2015-01-08 09:55:54 m LinkFailure                         Subrack=1,Slot=1,PlugInUnit=1,RiPort=B (No signal detected, id 1, port 2, cascadeNo 0, ruPortNo 0)
+2015-01-08 10:08:30 M ResourceConfigurationFailure        EUtranCellFDD=NPI_ENB6_2 (Required resource disabled)
+2015-01-08 10:08:31 M ResourceConfigurationFailure        EUtranCellFDD=NPI_ENB6_3 (Required resource disabled)
+2015-01-08 10:29:11 M ServiceUnavailable                  EUtranCellFDD=NPI_ENB6_1 (S1 Connection failure for PLMN mcc:311 mnc:280 duId :  1)
+>>> Total: 9 Alarms (0 Critical, 6 Major)
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:18 CST -> RSSI: 
+
+150108-06:38:13 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+Trying password from variable $password ...
+.........................
+get /c/pm_data/A20150108.1600-1615:1.xml.gz /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/pmfiles/169.254.1.10/pm_data/A20150108.1600-1615.1.xml.gz ... OK
+
+Using formulafile /dev/shm/smartlaptop/opt/moshell/commonjars/pm/FORMULA_ERBS_C_1_0.txt
+Using configfile /dev/shm/smartlaptop/opt/moshell/commonjars/pm/CONFIG_ERBS_C_1_0.txt
+
+Collecting CPP board data...
+....
+Collecting RBS board data...
+
+gzip -dc /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/pmfiles/169.254.1.10/pm_data/A20150108.1515-1530.1.xml.gz /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/pmfiles/169.254.1.10/pm_data/A20150108.1530-1545.1.xml.gz /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/pmfiles/169.254.1.10/pm_data/A20150108.1600-1615.1.xml.gz | /usr/bin/perl /dev/shm/smartlaptop/opt/moshell/pmExtract -l /run/initramfs/live/smartlaptop/scripts/NPI_ENB6/NPI_ENB6_2015_01_08.log -u "ManagedElement" "^(WeightedAverage|log10|pmActiveDrbDlSum|pmActiveDrbUlSum|pmActiveUeDlSum|pmActiveUeUlSum|pmAnrNeighbrelAdd|pmAnrNeighbrelRem|pmCellDowntimeAuto|pmCellDowntimeMan|pmErabEstabAttAdded|pmErabEstabAttInit|pmErabEstabFailAddedLic|pmErabEstabFailInitLic|pmErabEstabSuccAdded|pmErabEstabSuccInit|pmErabRelAbnormalEnb|pmErabRelAbnormalEnbAct|pmErabRelAbnormalEnbActCdt|pmErabRelAbnormalEnbActHo|pmErabRelAbnormalEnbActHpr|pmErabRelAbnormalEnbActTnFail|pmErabRelAbnormalEnbActUeLost|pmErabRelAbnormalMmeAct|pmErabRelMme|pmErabRelMmeAct|pmErabRelNormalEnb|pmErabRelNormalEnbAct|pmHoExeAttLteInterF|pmHoExeAttLteIntraF|pmHoExeSuccLteInterF|pmHoExeSuccLteIntraF|pmHoPrepAttLteInterF|pmHoPrepAttLteIntraF|pmHoPrepRejInLicConnUsers|pmHoPrepRejInLicMob|pmHoPrepRejInLicMultiErab|pmHoPrepSuccLteInterF|pmHoPrepSuccLteIntraF|pmLicConnectedUsersHardLimit|pmLicConnectedUsersLicense|pmMacDelayTimeDl|pmMacHarqDlAck16qam|pmMacHarqDlAck64qam|pmMacHarqDlAckQpsk|pmMacHarqDlNack16qam|pmMacHarqDlNack64qam|pmMacHarqDlNackQpsk|pmMacHarqUlFail16qam|pmMacHarqUlFailQpsk|pmMacHarqUlSucc16qam|pmMacHarqUlSuccQpsk|pmPagDiscarded|pmPagReceived|pmPdcpLatPktTransDl|pmPdcpLatTimeDl|pmPdcpPktDiscDlEth|pmPdcpPktDiscDlHo|pmPdcpPktDiscDlPelr|pmPdcpPktDiscDlPelrUu|pmPdcpPktFwdDl|pmPdcpPktLostUl|pmPdcpPktReceivedDl|pmPdcpPktReceivedUl|pmPdcpVolDlDrb|pmPdcpVolDlDrbLastTTI|pmPdcpVolDlDrbTransUm|pmRaAttCbra|pmRaFailCbraMsg2Disc|pmRaSuccCbra|pmRadioRecInterferencePwr|pmRadioRecInterferencePwrPucch|pmRadioThpResDl|pmRadioThpResUl|pmRadioThpVolDl|pmRadioThpVolUl|pmRadioTxRankDistr|pmRadioUeRepCqiDistr|pmRadioUeRepRankDistr|pmRlcArqDlAck|pmRlcArqDlNack|pmRlcArqUlAck|pmRlcArqUlNack|pmRlcDelayPktTransDl|pmRlcDelayTimeDl|pmRopCounter|pmRrcConnEstabAtt|pmRrcConnEstabAttEm|pmRrcConnEstabAttHpa|pmRrcConnEstabAttMod|pmRrcConnEstabAttMos|pmRrcConnEstabAttMta|pmRrcConnEstabAttReatt|pmRrcConnEstabFailLic|pmRrcConnEstabSucc|pmRrcConnLevSamp|pmRrcConnLevSum|pmRrcConnMax|pmS1SigConnEstabAtt|pmS1SigConnEstabSucc|pmSchedActivityCellDl|pmSchedActivityCellUl|pmSessionTimeDrb|pmSessionTimeUe|pmUeCtxtEstabAtt|pmUeCtxtEstabSucc|pmUeCtxtRelAbnormalEnb|pmUeCtxtRelAbnormalEnbAct|pmUeCtxtRelAbnormalEnbActCdt|pmUeCtxtRelAbnormalEnbActHo|pmUeCtxtRelAbnormalEnbActTnFail|pmUeCtxtRelAbnormalEnbActUeLost|pmUeCtxtRelMme|pmUeCtxtRelMmeAct|pmUeCtxtRelNormalEnb|pmUeCtxtRelSCCdma|pmUeCtxtRelSCEUtra|pmUeCtxtRelSCWcdma|pmUeThpTimeDl|pmUeThpTimeUl|pmUeThpVolUl)$"
+
+gzip -dc /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/tempfiles/20150108-063807_16383/pmrbuffer16421.gz   | /usr/bin/perl /dev/shm/smartlaptop/opt/moshell/pmXtab -fdef /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/tempfiles/20150108-063807_16383/FORMULA_ERBS_C_1_0.txt.txt -m ",EUtranCell.DD=([^\s,=\t]+)" -cols mo -x "^(Acc_AddedERabEstabFailRateDueToMultipleLicense|Acc_AddedERabEstabSuccRate|Acc_InitialERabEstabFailureRateDueToMultipleLicense|Acc_InitialERabEstabSuccRate|Acc_InitialErabSetupSuccRate|Acc_InitialUEContextEstabSuccRate|Acc_PagingDiscardRate|Acc_RandomAccessDecodingRate|Acc_RandomAccessMSG2Congestion|Acc_RrcConnSetupFailureRateDueToLackOfConnectedUsersLicense|Acc_RrcConnSetupRatioForEmergency|Acc_RrcConnSetupRatioForHighPrioAccess|Acc_RrcConnSetupRatioForMOData|Acc_RrcConnSetupRatioForMOSignalling|Acc_RrcConnSetupRatioForMobileTerminating|Acc_RrcConnSetupSuccRate|Acc_S1SigEstabSuccRate|Av_CellAvail|Av_CellDownAuto|Av_CellDownMan|Int_ActiveDRBsDl|Int_ActiveDRBsUl|Int_ActiveUEsDl|Int_ActiveUEsUl|Int_AverageDlMacDelay|Int_AverageDlRlcDelay|Int_DlLatency|Int_DlPacketErrorLoss|Int_DlPacketLossDueToHo|Int_DlRadioMeasCqiDistr|Int_DlRadioMeasTxRankDistr|Int_DlRadioMeasUeReportedTxRankDistr|Int_DlRadioThroughput|Int_DlThroughput_kbps|Int_MacHarqDlSuccRate|Int_MacHarqUlSuccRate|Int_RadioRecInterferencePucchPwr|Int_RadioRecInterferencePwr|Int_RlcArqDlSuccRate|Int_RlcArqUlSuccRate|Int_UlPacketLoss|Int_UlRadioThroughput|Int_UlThroughput_kbps|Mob_AnrNeighbrelAdd|Mob_AnrNeighbrelRemove|Mob_HoExecSuccRate|Mob_HoPrepRejInLicConnUsers|Mob_HoPrepRejInLicMob|Mob_HoPrepRejInLicMultiErab|Mob_HoPrepSuccRate|Mob_MobilitySuccRate|Mob_SessionContinuityRel|Oth_DrbVsUeSessionTimeRatio|Oth_Msg3RachRrcConsistencyCheck|Oth_UeCtxtEstablishmentAndReleaseConsistency|Res_AvgNrOfRrcConnectedUsers|Res_LicConnectedUsersCapacityRatio|Res_PeakNrOfRrcConnectedUsers|Ret_ERabDrop|Ret_ERabRelAbnormalENB|Ret_ERabRelAbnormalENBCdt|Ret_ERabRelAbnormalENBHoExec|Ret_ERabRelAbnormalENBHoPrep|Ret_ERabRelAbnormalENBTnFail|Ret_ERabRelAbnormalENBUeLost|Ret_ERabRelMME|Ret_ERabRelNormalENB|Ret_ERabRetainability|Ret_ERabRetainabilityRate|Ret_ErabRelAbnormal|Ret_MinPerDrop|Ret_UeCtxtRelAbnormal|Ret_UeCtxtRelAbnormalENB|Ret_UeCtxtRelAbnormalENBCdt|Ret_UeCtxtRelAbnormalENBHoExec|Ret_UeCtxtRelAbnormalENBTnFail|Ret_UeCtxtRelAbnormalENBUeLost|Ret_UeCtxtRelAbnormal_2|Ret_UeCtxtRelMME)$" -i "Acc_AddedERabEstabFailRateDueToMultipleLicense|Acc_AddedERabEstabSuccRate|Acc_InitialERabEstabFailureRateDueToMultipleLicense|Acc_InitialERabEstabSuccRate|Acc_InitialErabSetupSuccRate|Acc_InitialUEContextEstabSuccRate|Acc_PagingDiscardRate|Acc_RandomAccessDecodingRate|Acc_RandomAccessMSG2Congestion|Acc_RrcConnSetupFailureRateDueToLackOfConnectedUsersLicense|Acc_RrcConnSetupRatioForEmergency|Acc_RrcConnSetupRatioForHighPrioAccess|Acc_RrcConnSetupRatioForMOData|Acc_RrcConnSetupRatioForMOSignalling|Acc_RrcConnSetupRatioForMobileTerminating|Acc_RrcConnSetupSuccRate|Acc_S1SigEstabSuccRate|Av_CellAvail|Av_CellDownAuto|Av_CellDownMan|Int_ActiveDRBsDl|Int_ActiveDRBsUl|Int_ActiveUEsDl|Int_ActiveUEsUl|Int_AverageDlMacDelay|Int_AverageDlRlcDelay|Int_DlLatency|Int_DlPacketErrorLoss|Int_DlPacketLossDueToHo|Int_DlRadioMeasCqiDistr|Int_DlRadioMeasTxRankDistr|Int_DlRadioMeasUeReportedTxRankDistr|Int_DlRadioThroughput|Int_DlThroughput_kbps|Int_MacHarqDlSuccRate|Int_MacHarqUlSuccRate|Int_RadioRecInterferencePucchPwr|Int_RadioRecInterferencePwr|Int_RlcArqDlSuccRate|Int_RlcArqUlSuccRate|Int_UlPacketLoss|Int_UlRadioThroughput|Int_UlThroughput_kbps|Mob_AnrNeighbrelAdd|Mob_AnrNeighbrelRemove|Mob_HoExecSuccRate|Mob_HoPrepRejInLicConnUsers|Mob_HoPrepRejInLicMob|Mob_HoPrepRejInLicMultiErab|Mob_HoPrepSuccRate|Mob_MobilitySuccRate|Mob_SessionContinuityRel|Oth_DrbVsUeSessionTimeRatio|Oth_Msg3RachRrcConsistencyCheck|Oth_UeCtxtEstablishmentAndReleaseConsistency|Res_AvgNrOfRrcConnectedUsers|Res_LicConnectedUsersCapacityRatio|Res_PeakNrOfRrcConnectedUsers|Ret_ERabDrop|Ret_ERabRelAbnormalENB|Ret_ERabRelAbnormalENBCdt|Ret_ERabRelAbnormalENBHoExec|Ret_ERabRelAbnormalENBHoPrep|Ret_ERabRelAbnormalENBTnFail|Ret_ERabRelAbnormalENBUeLost|Ret_ERabRelMME|Ret_ERabRelNormalENB|Ret_ERabRetainability|Ret_ERabRetainabilityRate|Ret_ErabRelAbnormal|Ret_MinPerDrop|Ret_UeCtxtRelAbnormal|Ret_UeCtxtRelAbnormalENB|Ret_UeCtxtRelAbnormalENBCdt|Ret_UeCtxtRelAbnormalENBHoExec|Ret_UeCtxtRelAbnormalENBTnFail|Ret_UeCtxtRelAbnormalENBUeLost|Ret_UeCtxtRelAbnormal_2|Ret_UeCtxtRelMME" -a -p 6.1 -pipe /dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/tempfiles/20150108-063807_16383/pmrpipe16421 -fmt txt   | tee -a /run/initramfs/live/smartlaptop/scripts/NPI_ENB6/NPI_ENB6_2015_01_08.log
+
+ 4) ERBS EUtranCell Traffic Performance, Whole Period
+Report from 2015-01-08 15:15 UTC to 2015-01-08 16:14 UTC (3 ropfiles)
+Node SW: CXP102051/21_R38ES (L14A)
+Error evaluating formula Int_RadioRecInterferencePwr = 10 * log10( ( WeightedAverage( pmRadioRecInterferencePwr,[0.39716,0.89716,1.12946,1.42191,1.79008,2.25357,2.83708,3.57167,4.49647,5.66072,11.07925,27.82982,69.90536,175.59432,441.07,1107.92] ) ) / 1000000000000 ):
+Non-Array supplied as first parameter to WeightedAverage() at /dev/shm/smartlaptop/opt/moshell/pmXtab line 666, <> line 603.
+
+Error evaluating formula Int_RadioRecInterferencePucchPwr = 10 * log10( ( WeightedAverage( pmRadioRecInterferencePwrPucch,[0.39716,0.89716,1.12946,1.42191,1.79008,2.25357,2.83708,3.57167,4.49647,5.66072,11.07925,27.82982,69.90536,175.59432,441.07,1107.92] ) ) / 1000000000000 ):
+Non-Array supplied as first parameter to WeightedAverage() at /dev/shm/smartlaptop/opt/moshell/pmXtab line 666, <> line 603.
+
+Error evaluating formula Int_RadioRecInterferencePucchPwr_fW = WeightedAverage( pmRadioRecInterferencePwrPucch,[0.39716,0.89716,1.12946,1.42191,1.79008,2.25357,2.83708,3.57167,4.49647,5.66072,11.07925,27.82982,69.90536,175.59432,441.07,1107.92] ):
+Non-Array supplied as first parameter to WeightedAverage() at /dev/shm/smartlaptop/opt/moshell/pmXtab line 666, <> line 603.
+
+Error evaluating formula Int_RadioRecInterferencePwr_fW = WeightedAverage( pmRadioRecInterferencePwr,[0.39716,0.89716,1.12946,1.42191,1.79008,2.25357,2.83708,3.57167,4.49647,5.66072,11.07925,27.82982,69.90536,175.59432,441.07,1107.92] ):
+Non-Array supplied as first parameter to WeightedAverage() at /dev/shm/smartlaptop/opt/moshell/pmXtab line 666, <> line 603.
+
+
+Start Time: 2015-01-08 15:15:00 End Time: 2015-01-08 16:00:00
+ Counter                                                     NPI_ENB6_1 NPI_ENB6_2 NPI_ENB6_3 NPI_ENB6_4 NPI_ENB6_5 NPI_ENB6_6
+ Int_RadioRecInterferencePucchPwr                                   N/A        N/A        N/A        N/A        N/A        N/A
+ Int_RadioRecInterferencePwr                                        N/A        N/A        N/A        N/A        N/A        N/A
+
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:19 CST -> VSWR 1: 
+
+150108-06:38:18 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+=============================================================================================
+$ lhsh 000100/BXP_0_1 fui get vswr 1
+0001BXP_0_1: error. Type 'te log read' for more info
+$ 
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:20 CST -> VSWR 2: 
+
+150108-06:38:19 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+=============================================================================================
+$ lhsh 000100/BXP_0_1 fui get vswr 2
+0001BXP_0_1: error. Type 'te log read' for more info
+$ 
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:20 CST -> RET: 
+
+150108-06:38:20 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+  288                0 (DISABLED)  Equipment=1,AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1
+  290                0 (DISABLED)  Equipment=1,AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1
+  300                0 (DISABLED)  Equipment=1,AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1
+  302                0 (DISABLED)  Equipment=1,AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1
+  319                0 (DISABLED)  Equipment=1,AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1
+  321                0 (DISABLED)  Equipment=1,AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1
+===================================================================================
+Total: 6 MOs
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:20 CST -> ELECTRICAL TILT: 
+
+150108-06:38:20 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+=================================================================================================================
+MO                                                      Attribute         Value
+=================================================================================================================
+AntennaUnitGroup=1,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 20
+AntennaUnitGroup=1,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 0
+AntennaUnitGroup=2,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 20
+AntennaUnitGroup=2,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 0
+AntennaUnitGroup=3,AntennaNearUnit=1,RetSubUnit=1       electricalAntennaTilt 20
+AntennaUnitGroup=3,AntennaNearUnit=2,RetSubUnit=1       electricalAntennaTilt 0
+=================================================================================================================
+Total: 6 MOs
+
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:20 CST -> TMA: 
+
+150108-06:38:20 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+===================================================================================
+Total: 0 MOs
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:21 CST -> SECTOR RESERVED: 
+
+150108-06:38:20 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+.
+=================================================================================================================
+MO              reservedBy                    
+=================================================================================================================
+SectorCarrier=1 [1] = EUtranCellFDD=NPI_ENB6_1
+SectorCarrier=2 [1] = EUtranCellFDD=NPI_ENB6_2
+SectorCarrier=3 [1] = EUtranCellFDD=NPI_ENB6_3
+=================================================================================================================
+Total: 3 MOs
+
+Added 3 MOs to group: hget_group
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:40 CST -> CABINET: 
+
+150108-06:38:21 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+.......
+====================================================================================================================
+SMN APN  BOARD    FAULT  OPER   MAINT   PRODUCTNUMBER  REV    SERIAL     DATE     TEMP COREMGR
+====================================================================================================================
+  0   1  DUL2001  OFF    05HZ   OFF     KDU137533/4    R1C    TU8X276563 20110823 32C  
+--------------------------------------------------------------------------------------------------------------------
+
+================================================================
+SMN  ProductNr           Rev   Name        Date      SerialNr
+================================================================
+  0  ROJ999999           *     BACKPLANE             
+----------------------------------------------------------------
+
+==============================================================================================================================
+SMN APN PORT     BOARD            FAULT  OPER   MAINT  PRODUCT NR   REV    SERIAL       DATE     TEMP  AuxPIU  Cells
+==============================================================================================================================
+  0   1 BXP_0_1  RRUS11B12        OFF    ON     OFF    KRC161241/1  R2G    CF80003186   20111006       RRU-3   NPI_ENB6_3
+------------------------------------------------------------------------------------------------------------------------------
+
+====================================================================================================================
+SMN APN PORT     BOARD      AuxPIU   TX1(W/dBm)  TX2(W/dBm)  VSWR1 (RL1) VSWR2 (RL2)  Cells (cellId,PCI)
+====================================================================================================================
+  0   1 BXP_0_1  RRUS11B12  RRU-3    0.1 (19.2)  0.1 (19.2)  1.23 (19.9) 1.16 (22.8)  NPI_ENB6_3 (3,20)
+--------------------------------------------------------------------------------------------------------------------
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:40 CST -> SECTOR NoOfTx_Rx: 
+
+150108-06:38:40 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+...
+=================================================================================================================
+MO              noOfRxAntennas noOfTxAntennas noOfUsedRxAntennas noOfUsedTxAntennas rfBranchRxRef rfBranchTxRef
+=================================================================================================================
+SectorCarrier=1 2              2              2                  2                  [0] =         [0] =        
+SectorCarrier=2 2              2              -1                 -1                 [0] =         [0] =        
+SectorCarrier=3 2              2              -1                 -1                 [0] =         [0] =        
+=================================================================================================================
+Total: 3 MOs
+
+Added 3 MOs to group: hget_group
+Total: 0 MOs
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:40 CST -> SECTOR POWER: 
+
+150108-06:38:40 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+.
+=================================================================================================================
+MO              maximumTransmissionPower partOfSectorPower
+=================================================================================================================
+SectorCarrier=1 300                      7                
+SectorCarrier=2 -1                       7                
+SectorCarrier=3 -1                       7                
+=================================================================================================================
+Total: 3 MOs
+
+Added 3 MOs to group: hget_group
+.
+=================================================================================================================
+MO                        availableSectorPower configuredOutputPower
+=================================================================================================================
+SectorEquipmentFunction=1 1400                 20000                
+SectorEquipmentFunction=2 0                    20000                
+SectorEquipmentFunction=3 0                    20000                
+=================================================================================================================
+Total: 3 MOs
+
+Added 3 MOs to group: hget_group
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:40 CST -> RFBRANCH REFERENCE: 
+
+150108-06:38:40 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+..
+=================================================================================================================
+MO                            auPortRef                                                        reservedBy                     
+=================================================================================================================
+AntennaUnitGroup=1,RfBranch=1 [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=1
+AntennaUnitGroup=1,RfBranch=2 [1] = AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=1
+AntennaUnitGroup=2,RfBranch=1 [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=2
+AntennaUnitGroup=2,RfBranch=2 [1] = AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=2
+AntennaUnitGroup=3,RfBranch=1 [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1 [1] = SectorEquipmentFunction=3
+AntennaUnitGroup=3,RfBranch=2 [1] = AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2 [1] = SectorEquipmentFunction=3
+=================================================================================================================
+Total: 6 MOs
+
+Added 6 MOs to group: hget_group
+
+
+smart_laptop_command_finished
+
+
+2015.01.08 06:38:41 CST -> SCANNER: 
+
+150108-06:38:40 169.254.1.10 10.0e ERBS_NODE_MODEL_E_1_63_COMPLETE stopfile=/tmp/16421
+Connecting to 10.123.128.34:56834 (CorbaSecurity=OFF, corba_class=2, java=1.5.0_22, jacoms=R84EX04, jacorb=R84E02)
+Trying file=/dev/shm/smartlaptop/opt/moshell/logfiles/logs_moshell/tempfiles/20150108-063807_16383/ior16383
+**** Bootstrapping OK
+****
+
+$pmtester_pid = 16919
+
+================================================================================
+  PROXY  SCANNER-NAME                                                  STATE
+================================================================================
+      1  PREDEF.STATS                                                  ACTIVE
+     10  PREDEF.10000.CELLTRACE                                        SUSPENDED
+     11  PREDEF.10001.CELLTRACE                                        SUSPENDED
+     12  PREDEF.10002.CELLTRACE                                        SUSPENDED
+     13  PREDEF.10003.CELLTRACE                                        SUSPENDED
+     14  PREDEF.10004.CELLTRACE                                        SUSPENDED
+     15  PREDEF.10005.CELLTRACE                                        SUSPENDED
+================================================================================
+>>> Total: 7 Scanners
+
+
+smart_laptop_command_finished
+
+
+************************************** 
+
+NODEB / ENODEB ID  :NPI_ENB6
+TECHNOLOGY  :LTE
+RNC ID  :NA
+Date  :01082015_06_38
+NIC Integrator  :SL
+MARKET  :Dallas
+OSS  :Compact_OSS
+NEW CARRIER  :NA
+UTRANCELL/EUTRANCELLS OF NEW CARRIER  :NA
+CallTest Result  :Y
+FE NAME  :Junar Antenna
+FE PHONE No  :97258333200
+SOW  :AttLteIntegration
